@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[margin = 1in]{geometry}
+\addtolength{\topmargin}{0.5in}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\par{\centering{\huge Timothy Johnson}\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Address:} & 255 Stanford Court, Irvine CA 92612\\
+\textsc{Phone:} & (310) 722-4986\\
+\textsc{Email:} & \href{mailto:timjohnson314@gmail.com}{timjohnson314@gmail.com} \\
+\textsc{Github:} & \href{https://github.com/tjohnson314/}{https://github.com/tjohnson314/}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{September 2015} & Software Engineer, Garmin International, Inc. \\
+\textsc{June 2015} & I worked on maintaining the navigation systems for various models of Mercedes-Benz cars. I integrated various scripts that we used to analyze drive test data into a single Windows application, and added a few new features to it as well. Then I used that application to analyze the data and write reports for Daimler about any issues. \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{TA Experience} & \\
+Fall 2015 & Formal Languages and Automata \\
+Winter 2015 & Formal Languages and Automata \\
+Fall 2014 & Introduction to Algorithms \\
+Summer 2014 & Introduction to Python \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|l}	
+\textsc{Current} & PhD in Computer Science, University of California, Irvine\\
+\textsc{September 2013} &\normalsize \textsc{GPA}: 3.9/4.0 \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{June 2013} & B.S. in Mathematics, California Institute of Technology \\
+\textsc{September 2010} &\normalsize \textsc{GPA}: 3.2/4.0 \\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{June 2010} & A.S. in Mathematics, El Camino College \\
+\textsc{August 2007} & \textsc{GPA}: 3.9/4.0 \\
+
+%------------------------------------------------
+\end{tabular}
+
+\section{Publications}
+Goodrich, M., Johnson, T., Torres, M. Knuthian Drawing of Series-Parallel Graphs. Poster published at Graph Drawing 2015: http://www.csun.edu/gd2015/posters.htm.
+
+\section{Academic awards and scholarships}
+
+\begin{itemize}
+\item \textsc{2011-12, 2012-13}: Caltech, McLean Brothers scholarship. Awarded to a rising junior or senior who can demonstrate ``oustanding academic achievement, leadership ability, and financial need.'' 
+\end{itemize}
+
+\section{Competitive math and programming}
+
+\begin{itemize}
+\item ACM Chapter President, 2015-16. I'm coaching our team for the ICPC contest. I choose problems for our algorithm practices every week, and guide undergrads through solving them.
+\item Project Euler: A website hosting various challenge problems that require skill in both mathematics and algorithms. I've solved over 225 of these problems now.
+\item 2009-10 AMATYC math contest. I placed 8th, out of several thousand participating community college students in the US.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+%\section{Other interests}
+%
+%\begin{itemize}
+%\item Piano: 8 years of private lessons. I play for my own enjoyment now.
+%\item Ultimate: 4 years of collegiate competition.
+%%\item Pillow Pet whisperer (To add when I'm successful enough to get away with it :P)
+%\end{itemize}
+%
+%----------------------------------------------------------------------------------------
+
+\end{document}
